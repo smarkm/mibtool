@@ -1,8 +1,8 @@
 # SNMP MIB Parser for Go
 
-[![Build Status](https://travis-ci.com/hallidave/mibtool.svg?branch=master)](https://travis-ci.com/hallidave/mibtool)
-[![GoDoc](https://godoc.org/github.com/hallidave/mibtool/smi?status.svg)](https://godoc.org/github.com/hallidave/mibtool/smi)
-![Version](https://img.shields.io/github/tag/hallidave/mibtool.svg?label=version)
+[![Build Status](https://travis-ci.com/smarkm/mibtool.svg?branch=master)](https://travis-ci.com/smarkm/mibtool)
+[![GoDoc](https://godoc.org/github.com/smarkm/mibtool/smi?status.svg)](https://godoc.org/github.com/smarkm/mibtool/smi)
+![Version](https://img.shields.io/github/tag/smarkm/mibtool.svg?label=version)
 
 The `mibtool` module contains packages for parsing SNMP MIBs and querying
 the information contained in them.
@@ -13,7 +13,7 @@ to make more information available.
 
 ## Installation
 
-    go get -u github.com/hallidave/mibtool/smi
+    go get -u github.com/smarkm/mibtool/smi
 
 ## Examples
 
@@ -35,3 +35,5 @@ to make more information available.
         log.Fatal(err)
     }
     fmt.Println(oid.String())
+## More
+this project is a hard fork from https://github.com/hallidave/mibtool, since the `issues` have long time not addressed, thanks hallidave's work

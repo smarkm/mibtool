@@ -10,7 +10,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/hallidave/mibtool/smi"
+	"github.com/smarkm/mibtool/smi"
 )
 
 func TestLoadModules(t *testing.T) {
